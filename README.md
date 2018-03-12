@@ -21,7 +21,7 @@ This should start a registry server on your local machine at `http://localhost:4
 Next with your new login, publish the shared package to `sinopia`.
 
 ```bash
-cd shared
+cd shared_components
 npm run build
 npm publish
 ```
