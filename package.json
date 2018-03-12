@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@shared/components": "^0.1.0",
     "bootstrap": "^4.0.0",
     "build-url": "^1.0.10",
     "fetch-jsonp": "^1.1.3",

@@ -2,6 +2,10 @@
 # yarn lockfile v1
 
 
+"@shared/components@^0.1.0":
+  version "0.1.0"
+  resolved "http://localhost:4873/@shared%2fcomponents/-/components-0.1.0.tgz#5a65c0cb252ed1c6a734682e6ca1244ebbcc1742"
+
 abab@^1.0.3:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"

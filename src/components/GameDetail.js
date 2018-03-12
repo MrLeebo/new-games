@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { withHandlers } from 'recompose';
 import { Button, Media } from 'reactstrap';
-import Placeholder from './Placeholder';
+import { Placeholder } from '@shared/components';
 import PlatformTags from './PlatformTags';
 import { game } from '../ajax';
 

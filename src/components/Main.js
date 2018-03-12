@@ -1,7 +1,7 @@
 import React from 'react';
 import { Media } from 'reactstrap';
+import { Placeholder } from '@shared/components';
 import { games } from '../ajax';
-import Placeholder from './Placeholder';
 import GameMedia from './GameMedia';
 
 function renderMedia(game) {
