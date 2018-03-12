@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from 'reactstrap';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { HashRouter, Switch, Route } from 'react-router-dom';
 import { asyncComponent } from '@shared/components';
 
 export const GameDetail = asyncComponent(() =>
@@ -14,12 +14,12 @@ export const Main = asyncComponent(() =>
 export default function App() {
   return (
     <Container>
-      <BrowserRouter>
+      <HashRouter>
         <Switch>
           <Route path="/games/:guid" component={GameDetail} />
           <Route component={Main} />
         </Switch>
-      </BrowserRouter>
+      </HashRouter>
     </Container>
   );
 }
