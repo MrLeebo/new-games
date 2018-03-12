@@ -1,0 +1,7 @@
+a.media {
+  color: white;
+}
+
+a.media:hover {
+  text-decoration: none;
+}
