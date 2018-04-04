@@ -12,5 +12,5 @@ function renderPlatform(platform) {
 }*/
 
 export default function PlatformTags({platforms}) {
-  return platforms.map(platform => <Badge key={platform.id} className="mx-1">{platform.name}</Badge>)
+  return platforms && platforms.map(platform => <Badge key={platform.id} className="mx-1">{platform.name}</Badge>)
 }
